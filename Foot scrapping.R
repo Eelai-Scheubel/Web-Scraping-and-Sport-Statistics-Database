@@ -1,7 +1,6 @@
 # Importation des librairies
 library(worldfootballR)
 library(dplyr)
-library(magrittr)
 library(writexl)
 
 # Fonction pour extraire et filtrer les différentes catégories de statistiques (shooting, passing, etc...)
@@ -49,5 +48,5 @@ name_xl <- "Database_PL.xlsx"
 # Récupération des statistiques
 combined_df <- fetch_premier_league_stats(url, stat_types, comp)
 
-# Sauvegarde du résultat
+# Sauvegarde du résultat sous fichier excel
 write_xlsx(combined_df, name_xl)
