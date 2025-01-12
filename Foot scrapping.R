@@ -14,6 +14,8 @@ filter_stat <- function(team_urls, stat_type, comp) {           # team_urls = li
     } else {
       c(1:13)
     }))
+
+  Sys.sleep(3) # Pause entre les requêtes pour éviter une surcharge du serveur
   return(stats)
 }
 
