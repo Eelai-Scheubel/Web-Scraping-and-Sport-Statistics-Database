@@ -15,7 +15,7 @@ Before starting, ensure the following libraries are installed on your system:
 - dplyr
 - writexl
 
-Output
+Output:
 An Excel file named Database_PL.xlsx will be generated, containing all combined team statistics from the Premier League.
 
 Note:
