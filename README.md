@@ -1,4 +1,4 @@
-# scrapping
+# Web Scraping and Sport Statistics Database
 
 Extracting Football Statistics with R
 
